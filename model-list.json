@@ -1,0 +1,26 @@
+{
+    "models": [
+        {
+        "name": "Tongyi-MAI/Z-Image-Turbo",
+        "type": "diffusion_model",
+        "base": "Z-Image",
+        "save_path": "diffusion_models/Z-Image-Turbo",
+        "description": "[SNAPSHOT] Z-Image-Turbo model by Tongyi-MAI.",
+        "reference": "https://huggingface.co/Tongyi-MAI/Z-Image-Turbo",
+        "filename": "<huggingface>",
+        "url": "Tongyi-MAI/Z-Image-Turbo",
+        "size": ""
+        },
+        {
+        "name": "Qwen/Qwen2.5-7B-Instruct",
+        "type": "LLM",
+        "base": "Qwen2.5",
+        "save_path": "LLM/Qwen2.5-7B-Instruct",
+        "description": "[SNAPSHOT] Qwen2.5-7B-Instruct LLM model.",
+        "reference": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+        "filename": "<huggingface>",
+        "url": "Qwen/Qwen2.5-7B-Instruct",
+        "size": ""
+        }
+    ]
+}

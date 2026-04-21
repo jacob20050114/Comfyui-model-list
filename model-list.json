@@ -8,8 +8,7 @@
         "description": "Z-Image-Turbo transformer, NF4 quantized, ComfyUI native format",
         "reference": "https://huggingface.co/Comfy-Org/z_image_turbo",
         "filename": "z_image_turbo_nvfp4.safetensors",
-        "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/diffusion_models/z_image_
-turbo_nvfp4.safetensors",
+        "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/diffusion_models/z_image_turbo_nvfp4.safetensors",
         "size": ""
         },
         {
@@ -20,8 +19,7 @@ turbo_nvfp4.safetensors",
         "description": "Z-Image-Turbo distillation LoRA, required for turbo inference",
         "reference": "https://huggingface.co/Comfy-Org/z_image_turbo",
         "filename": "z_image_turbo_distill_patch_lora_bf16.safetensors",
-        "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/loras/z_image_turbo_disti
-ll_patch_lora_bf16.safetensors",
+        "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/loras/z_image_turbo_distill_patch_lora_bf16.safetensors",
         "size": ""
         },
         {
@@ -32,8 +30,7 @@ ll_patch_lora_bf16.safetensors",
         "description": "Qwen3 4B text encoder for Z-Image-Turbo, fp8 mixed quantized",
         "reference": "https://huggingface.co/Comfy-Org/z_image_turbo",
         "filename": "qwen_3_4b_fp8_mixed.safetensors",
-        "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/text_encoders/qwen_3_4b_f
-p8_mixed.safetensors",
+        "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/text_encoders/qwen_3_4b_fp8_mixed.safetensors",
         "size": ""
         },
         {

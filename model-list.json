@@ -1,14 +1,50 @@
 {
     "models": [
         {
-        "name": "Tongyi-MAI/Z-Image-Turbo",
+        "name": "Z-Image-Turbo (diffusion model, nvfp4)",
         "type": "diffusion_model",
-        "base": "Z-Image",
-        "save_path": "diffusion_models/Z-Image-Turbo",
-        "description": "[SNAPSHOT] Z-Image-Turbo model by Tongyi-MAI.",
-        "reference": "https://huggingface.co/Tongyi-MAI/Z-Image-Turbo",
-        "filename": "<huggingface>",
-        "url": "Tongyi-MAI/Z-Image-Turbo",
+        "base": "Z-Image-Turbo",
+        "save_path": "diffusion_models",
+        "description": "Z-Image-Turbo transformer, NF4 quantized, ComfyUI native format",
+        "reference": "https://huggingface.co/Comfy-Org/z_image_turbo",
+        "filename": "z_image_turbo_nvfp4.safetensors",
+        "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/diffusion_models/z_image_
+turbo_nvfp4.safetensors",
+        "size": ""
+        },
+        {
+        "name": "Z-Image-Turbo (distill LoRA, bf16)",
+        "type": "lora",
+        "base": "Z-Image-Turbo",
+        "save_path": "loras",
+        "description": "Z-Image-Turbo distillation LoRA, required for turbo inference",
+        "reference": "https://huggingface.co/Comfy-Org/z_image_turbo",
+        "filename": "z_image_turbo_distill_patch_lora_bf16.safetensors",
+        "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/loras/z_image_turbo_disti
+ll_patch_lora_bf16.safetensors",
+        "size": ""
+        },
+        {
+        "name": "Z-Image-Turbo (text encoder, Qwen3 4B fp8)",
+        "type": "clip",
+        "base": "Z-Image-Turbo",
+        "save_path": "text_encoders",
+        "description": "Qwen3 4B text encoder for Z-Image-Turbo, fp8 mixed quantized",
+        "reference": "https://huggingface.co/Comfy-Org/z_image_turbo",
+        "filename": "qwen_3_4b_fp8_mixed.safetensors",
+        "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/text_encoders/qwen_3_4b_f
+p8_mixed.safetensors",
+        "size": ""
+        },
+        {
+        "name": "Z-Image-Turbo (VAE)",
+        "type": "vae",
+        "base": "Z-Image-Turbo",
+        "save_path": "vae",
+        "description": "VAE for Z-Image-Turbo",
+        "reference": "https://huggingface.co/Comfy-Org/z_image_turbo",
+        "filename": "ae.safetensors",
+        "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/vae/ae.safetensors",
         "size": ""
         },
         {
@@ -23,4 +59,4 @@
         "size": ""
         }
     ]
-}
+  }

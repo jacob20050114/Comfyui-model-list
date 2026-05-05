@@ -54,6 +54,41 @@
         "filename": "<huggingface>",
         "url": "Qwen/Qwen2.5-7B-Instruct",
         "size": ""
+        },
+        {
+        "name": "Z-Image-Turbo (diffusion model, bf16)",
+        "type": "diffusion_model",
+        "base": "Z-Image-Turbo",
+        "save_path": "diffusion_models",
+        "description": "Z-Image-Turbo transformer, full bf16 (non-quantized)",
+        "reference": "https://huggingface.co/Comfy-Org/z_image_turbo",
+        "filename": "z_image_turbo_bf16.safetensors",
+        "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/diffusion_models/z_image_turbo_bf16.safetensors",
+        "size": ""
+        },
+        {
+        "name": "Z-Image-Turbo (text encoder, Qwen3 4B bf16)",
+        "type": "clip",
+        "base": "Z-Image-Turbo",
+        "save_path": "text_encoders",
+        "description": "Qwen3 4B text encoder for Z-Image-Turbo, bf16 (non-quantized)",
+        "reference": "https://huggingface.co/Comfy-Org/z_image_turbo",
+        "filename": "qwen_3_4b.safetensors",
+        "url":
+    "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/text_encoders/qwen_3_4b.safetensors",
+        "size": ""
+        },
+        {
+        "name": "LTX-2 (text encoder, Gemma 3 12B fp4 mixed)",
+        "type": "clip",
+        "base": "LTX-2",
+        "save_path": "text_encoders",
+        "description": "Gemma 3 12B text encoder for LTX-2, fp4 mixed quantized",
+        "reference": "https://huggingface.co/Comfy-Org/ltx-2",
+        "filename": "gemma_3_12B_it_fp4_mixed.safetensors",
+        "url":
+    "https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/text_encoders/gemma_3_12B_it_fp4_mixed.safetensors",
+        "size": ""
         }
     ]
   }

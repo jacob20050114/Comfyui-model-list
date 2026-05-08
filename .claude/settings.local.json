@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(mkdir -p \"C:/Users/USER/Desktop/Comfyui-model-list/.github/workflows\" && mkdir -p \"C:/Users/USER/Desktop/Comfyui-model-list/scripts\")",
-      "Bash(cd \"C:/Users/USER/Desktop/Comfyui-model-list\" && python scripts/validate.py)"
-    ]
-  }
-}

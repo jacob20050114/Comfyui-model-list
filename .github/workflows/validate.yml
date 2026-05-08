@@ -1,0 +1,30 @@
+name: Validate model-list.json
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "model-list.json"
+      - "scripts/validate.py"
+      - ".github/workflows/validate.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "model-list.json"
+      - "scripts/validate.py"
+      - ".github/workflows/validate.yml"
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate model-list.json
+        run: python scripts/validate.py
